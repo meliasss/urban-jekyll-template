@@ -13,8 +13,12 @@
 	max-width: 1000px;
 }
 
+hr.line {
+    border: 0;
+    border-bottom: 5px dashed #8A140E;
+}
 header {
-	color: #fff;
+	color: #E0E8F0;
 	padding: 20px 0;
 	position: absolute;
 	top: 0;
@@ -22,7 +26,7 @@ header {
 	width: 100%;
 
 	a {
-		color: #fff;
+		color: #E0E8F0;
 		text-decoration: none;
 		z-index: 1;
 		position: relative;
@@ -38,7 +42,7 @@ header {
 }
 
 .content {
-	background: #fff;
+	background: #E0E8F0;
 	padding: 1px 0 0 0;
 	position: relative;
 }
@@ -56,7 +60,7 @@ header {
 
 section {
 	padding: 150px 0;
-	background: #fff;
+	background: #E0E8F0;
 	margin-top: -2px;
 
 	&.diagonal {
@@ -74,7 +78,7 @@ section {
 	}
 
 	&.hero {
-		color: #ffffff;
+		color: #E0E8F0;
 		background: $brand-color;
 		text-align: left;
 		margin-top: -100px;
@@ -90,11 +94,11 @@ section {
 
 		p {
 			font-size: 1.8rem;
-			color: #fff;
+			color: #E0E8F0;
 		}
 
 		a:not(.button) {
-			color: #ffffff;
+			color: #E0E8F0;
 			font-style: italic;
 		}
 	}
@@ -112,8 +116,8 @@ section {
 	text-decoration: none;
 	cursor: pointer;
 	margin: 20px 0 0 0;
-	border: 1px solid #fff;
-	background: #fff;
+	border: 1px solid #E0E8F0;
+	background: #E0E8F0;
 	text-decoration: none !important;
 
 	&:hover {
@@ -238,7 +242,7 @@ section {
 }
 
 .patterned {
-	background: #222 url($pattern);
+	background: #E0E8F0 url($pattern);
 
 	&,
 	p {
